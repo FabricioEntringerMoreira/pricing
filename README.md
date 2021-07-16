@@ -43,9 +43,9 @@ value, a random value, a base value plus the seconds fraction of current time).
 
 Example:
     
-    Scenario 1: Purchase made at 00h: A percentage shall between 0% and 24%.
-    Scenario 2: Purchase made at 12:00 pm: A percentage shall between 0% and 12%
-    Scenario 1: Purchase made at 11:00 pm: A percentage shall between 0% and 1%
+    Scenario 1: Purchase made at 00h: A percentage shall uo to 24%.
+    Scenario 2: Purchase made at 12:00 pm: A percentage shall up to 12%
+    Scenario 1: Purchase made at 11:00 pm: A percentage shall up to 1%
 
 
 #### *API:*  (In localhost, use: Port:8082)
