@@ -9,11 +9,11 @@
 
 The Service is responsible for choosing a discount percentage to be applied to a price randomly, however, the hour of the purchase may affect the discount percentage amount.
 
-Into the Service, the consumer must inform the product's date/time of purchase and price.
+One the Service, the consumer must inform the product's date/time of purchase and price.
 
-Based on the time of purchase, the service/API will define, from a draw, a discount percentage applied to the value. The objective is to benefit purchases made earlier with the POSSIBILITY of obtaining a better discount. The maximum potential discount is 24%, nonetheless, for each lost hour, the chances are reduced by 1%.
+Based on the time of purchase, the service/API will define, randomly, a discount percentage applied to the value. The objective is to benefit purchases made earlier with the POSSIBILITY of obtaining a better discount. The maximum potential discount is 24%, nonetheless, for each lost hour, the chances are reduced by 1%.
 
-Example: For purchases performed at 00h, the discount will be in the range of 0% to 24%. But for the purchases made at midnight, the possible discount will be limited between into a range of 0 and 12%
+Example: For purchases performed at 00h, the discount will be in the range of 0% to 24%. But for the purchases made at midday, the possible discount will be limited between into a range of 0 and 12%
 
 
 ## Summary
